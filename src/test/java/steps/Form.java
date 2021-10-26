@@ -24,6 +24,7 @@ public class Form {
 	       Thread.sleep(2000);
 	       driver.findElement(By.xpath("//input[@name='YourName']")).click();
 	       driver.findElement(By.xpath("//input[@name='YourName']")).sendKeys("John Doe");
+	       System.out.println("demo123");
 	       
 	       
 	     
