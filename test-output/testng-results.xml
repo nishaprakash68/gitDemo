@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-05T11:38:20Z" name="Default suite" finished-at="2021-10-05T11:38:31Z" duration-ms="10776">
+    <groups>
+    </groups>
+    <test started-at="2021-10-05T11:38:20Z" name="Default test" finished-at="2021-10-05T11:38:31Z" duration-ms="10776">
+      <class name="steps.Form">
+        <test-method signature="login()[pri:0, instance:steps.Form@8519cb4]" started-at="2021-10-05T11:38:20Z" name="login" finished-at="2021-10-05T11:38:31Z" duration-ms="10762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- steps.Form -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

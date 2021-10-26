@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GmailVerify]">
+  <test thread-count="5" name="Gmail(failed)">
+    <parameter name="url" value="https://mail.google.com/"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="steps.GmailVerifyStep">
+        <methods>
+          <include name="gmail_login"/>
+          <include name="contact_form_verify"/>
+          <include name="setUp"/>
+          <include name="flush"/>
+          <include name="delete_contact_form_email"/>
+        </methods>
+      </class> <!-- steps.GmailVerifyStep -->
+    </classes>
+  </test> <!-- Gmail(failed) -->
+</suite> <!-- Failed suite [GmailVerify] -->

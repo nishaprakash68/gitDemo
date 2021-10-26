@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ContactForm]">
+  <test thread-count="5" name="Contact(failed)">
+    <parameter name="url" value="https://www.pulsetechsolutions.com.au/custom-software-development-services/"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="steps.ContactSteps">
+        <methods>
+          <include name="submit_contact"/>
+          <include name="setUp"/>
+          <include name="flush"/>
+        </methods>
+      </class> <!-- steps.ContactSteps -->
+    </classes>
+  </test> <!-- Contact(failed) -->
+</suite> <!-- Failed suite [ContactForm] -->

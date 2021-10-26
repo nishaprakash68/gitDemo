@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ServiceForm" verbose="1">
+    <test name="Services" parallel="none">
+        <parameter name="browserType" value="chrome" />
+        <parameter name="url"
+                   value="https://www.pulsetechsolutions.com.au/contact/" />
+        <classes>
+            <class
+                    name="steps.contactSteps" />
+        </classes>
+    </test>
+</suite>

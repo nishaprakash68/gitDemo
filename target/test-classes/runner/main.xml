@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Main" verbose="1">
+    <test name="Contact" parallel="none">
+        <parameter name="browserType" value="chrome" />
+        <parameter name="url"
+                   value="https://www.pulsetechsolutions.com.au/contact/" />
+        <classes>
+            <class
+                    name="steps.contactSteps" />
+        </classes>
+    </test>
+    <test name="Gmail" parallel="none">
+        <parameter name="browserType" value="chrome" />
+        <parameter name="url"
+                   value="http://gmail.com/" />
+        <classes>
+            <class
+                    name="steps.GmailVerifyStep" />
+        </classes>
+    </test>
+</suite>
+

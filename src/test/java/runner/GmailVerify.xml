@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GmailVerify" verbose="1">
+    <test name="Gmail" parallel="none">
+        <parameter name="browserType" value="chrome" />
+        <parameter name="url"
+                   value="https://mail.google.com/" />
+        <classes>
+            <class
+                    name="steps.GmailVerifyStep" />
+        </classes>
+    </test>
+</suite>
